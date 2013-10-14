@@ -40,7 +40,7 @@ a:hover {
   margin: 220px 0px 50px 0px;
 }
 
-#fathom {
+.icon {
   -moz-box-shadow: 2px 2px 8px #aaa;
   -webkit-box-shadow: 2px 2px 8px #aaa;
   box-shadow: 2px 2px 8px #aaa;
