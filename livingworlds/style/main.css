@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	font-family: "Open Sans", arial, sans-serif;
+	color: #05D798;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 300;
+}
+
+.signup {
+	width: 95%;
+	max-width: 600px;
+	margin: 40px auto;
+}
+
+a {
+	color: #15E7A8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+video {
+	max-width: 95%;
+}
+
+/* #05D798 */
