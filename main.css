@@ -15,8 +15,6 @@ body {
   color: #4f4f4f;
   font-size: 30px;
   font-weight: 100;
-  width: 95%;
-  margin: 0 auto;
   position: relative;
   min-height: 100%;
 }
@@ -53,7 +51,7 @@ a:hover {
 #footer {
   text-align: center;
   font-size: 12px;
-  margin: 0px 0px 4px 0px;
+  margin: 0px 15px 15px 15px;
 }
 
 .things {
@@ -63,10 +61,28 @@ a:hover {
 }
 
 .thing {
-  width: 350px;
+  position: relative;
+  display:inline-block;
   margin: 0 20px;
+  max-width: 350px;
+  width: 95%;
 }
 
 .thing img {
-  width: 350px;
+  width: 100%;
+}
+
+.margin {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (max-width: 582px) {
+  html {
+    background-size: 160vw;
+  }
+  
+  #main {
+    margin-top: 40vw;
+  }
 }

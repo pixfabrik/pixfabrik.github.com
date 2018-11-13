@@ -18,6 +18,10 @@ body {
 	text-align: center;
 }
 
+h1 {
+  margin-top: 30px;
+}
+
 h1, h2 {
 	font-weight: 300;
 }
@@ -40,7 +44,6 @@ video {
 
 .content {
   display: flex;
-  
 }
 
 .content .left {
@@ -59,6 +62,12 @@ video {
   padding: 30px;
   flex-grow: 1;
   flex-basis: 10px;
+}
+
+@media (max-width: 767px) {
+  .content {
+    display: block;
+  }
 }
 
 /* #05D798 */
