@@ -15,7 +15,6 @@ body {
 	/* background-size: contains; */
   font-family: "Helvetica", "Arial", sans-serif;
   color: #4f4f4f;
-	text-align: center;
 }
 
 h1 {
@@ -36,6 +35,10 @@ a {
 	color: #333;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+.center {
+  text-align: center;
 }
 
 video {
@@ -62,6 +65,19 @@ video {
   padding: 30px;
   flex-grow: 1;
   flex-basis: 10px;
+}
+
+.middle {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin: 50px 0;
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 2em;
 }
 
 @media (max-width: 767px) {
