@@ -25,6 +25,20 @@ h1, h2 {
 	font-weight: 300;
 }
 
+.android {
+  width: 240px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ios {
+  width: 240px;
+  font-size: 1.5em;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .signup {
 	width: 95%;
 	max-width: 600px;
