@@ -6,6 +6,7 @@
   ];
   
   var index = 1;
+  var $scene, $scene2;
   
   function next() {
     var url = '/livingworlds/img/' + imagePaths[index];
@@ -14,15 +15,25 @@
     var img = new Image();
     img.onload = function() {
       setTimeout(function() {
-        $('.scene').attr({
+        $scene2.attr({
           src: url
         });
-        next();
+        $scene2.addClass('shown');
+        setTimeout(function() {
+          $scene.attr({
+            src: url
+          });
+          $scene2.removeClass('shown');
+          next();
+        }, 1000);
       }, Math.max(1, readyTime - Date.now()));
     };
     img.src = url;
   }
+  
   $(document).ready(function() {
+    $scene = $('.scene');
+    $scene2 = $('.scene-2');
     next();
   });
 })();
