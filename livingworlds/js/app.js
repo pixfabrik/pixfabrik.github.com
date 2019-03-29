@@ -2,7 +2,8 @@
   var imagePaths = [
     'jan.png',
     'feb.png',
-    'mar.png'
+    'mar.png',
+    'apr.png'
   ];
   
   var index = 1;
