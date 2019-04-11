@@ -35,6 +35,15 @@
   $(document).ready(function() {
     $scene = $('.scene');
     $scene2 = $('.scene-2');
+    $count = $('.count');
+    
+    var date = new Date();
+    var isMay = date.getMonth() >= 4 || date.getFullYear() > 2019;
+    if (isMay) {
+      $count.text('five');
+      imagePaths.push('may.png');
+    }
+    
     next();
   });
 })();
