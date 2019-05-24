@@ -3,7 +3,9 @@
     'jan.png',
     'feb.png',
     'mar.png',
-    'apr.png'
+    'apr.png',
+    'may.png',
+    'jun.png'
   ];
   
   var index = 1;
@@ -37,12 +39,12 @@
     $scene2 = $('.scene-2');
     $count = $('.count');
     
-    var date = new Date();
-    var isMay = date.getMonth() >= 4 || date.getFullYear() > 2019;
-    if (isMay) {
-      $count.text('five');
-      imagePaths.push('may.png');
-    }
+    // var date = new Date();
+    // var isMay = date.getMonth() >= 4 || date.getFullYear() > 2019;
+    // if (isMay) {
+    //   $count.text('five');
+    //   imagePaths.push('may.png');
+    // }
     
     next();
   });
