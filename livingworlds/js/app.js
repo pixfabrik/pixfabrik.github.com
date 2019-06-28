@@ -5,7 +5,8 @@
     'mar.png',
     'apr.png',
     'may.png',
-    'jun.png'
+    'jun.png',
+    'jul.png'
   ];
   
   var index = 1;
