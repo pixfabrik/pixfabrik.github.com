@@ -7,7 +7,8 @@
     'may.png',
     'jun.png',
     'jul.png',
-    'aug.png'
+    'aug.png',
+    'sep.png'
   ];
   
   var index = 1;
