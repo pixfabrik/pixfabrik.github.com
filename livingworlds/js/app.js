@@ -10,7 +10,8 @@
     'aug.png',
     'sep.png',
     'oct.png',
-    'nov.png'
+    'nov.png',
+    'dec.png'
   ];
   
   var index = 1;
