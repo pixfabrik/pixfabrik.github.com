@@ -6,13 +6,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../style/main.css">
 	</head>
-	<body>
+	<body class="support-page">
 		<div class="middle">
 			<h1 class="center">Living Worlds Support</h1>
 			<p>Please email <a href="mailto:support@pixfabrik.com">support@pixfabrik.com</a> with questions and comments!</p>
 			<h2>FAQ</h2>
 			<h3>Can I use the Worlds as a live wallpaper?</h3>
-			<p>Yes, the Android version of the app supports live wallpaper! Unfortunately iOS does not (yet) support live wallpapers.</p>
+			<p>Yes, the Android version of the app supports live wallpaper!</p>
+			<p>Unfortunately iOS does not (yet) support live wallpapers. The iOS system does have a feature they call "live wallpaper", but it's actually just a short video. They also have true live wallpapers (which they call "dynamic"), but they only allow their own (created by Apple), not ones created by other developers (like us). Hopefully someday they'll change this policy, and the Living Worlds can run as live wallpapers on iOS as well…</p>
 			<h3>Can I use Android dark mode with the live wallpaper?</h3>
 			<p>Unfortunately the dark mode in Android 9 (Pie) doesn't work with third party live wallpapers (such as Living Worlds). Android Q's dark mode does, however.</p>
 			<h3>Why are the images portrait orientation when Joseph's demo is landscape?</h3>
@@ -20,6 +21,13 @@
 			<h3>Will more Living World scenes come out after the end of the year?</h3>
 			<p>Reviving these images is already taking a lot of my time, but to make new ones would require us to get together tools that Mark could use to create new ones, and of course for Mark to take the time needed to make them.</p>
 			<p>In <a href="http://www.effectgames.com/effect/article-Q_A_with_Mark_J_Ferrari.html" target="_blank">this Q & A</a>, as well as in <a href="https://www.youtube.com/watch?v=aMcJ1Jvtef0" target="_blank">this talk</a>, Mark talks about some of the challenges involved in creating images like this today. If we had all the time in the world (i.e. if this app was making enough money for us to live on), we'd love to build new tools for Mark! With today's computers we could take the work he pioneered back in the 90s and bring it to a whole new level. Maybe someday…</p>
+			<h3>Can the app synchronize with local sunset/sunrise times?</h3>
+			<p>It does not currently do this. It would be neat, but there are a couple of issues:</p>
+			<ul>
+				<li>The existing palette transitions and artwork changes are all set up for specific times, so we'd have to do a lot of reworking to make sure the changing sunrise/sunset didn't cause glitches.</li>
+				<li>We'd have to ask for your geolocation (or at least latitude, I suppose), and I'm kind of pleased with the fact that we don't ask for any user information at the moment.</li>
+			</ul>
+			<p>So, it's on the wish list, but no immediate plans to do it.</p>
 		</div>
 		<div class="footer center">
 			<div class="links">
@@ -29,7 +37,7 @@
 				<a href="/livingworlds/privacy/">Privacy Policy</a>
 			</div>
 			<div class="copyright">
-				&copy; 2018-2019, Pixfabrik LLC</div>
+				&copy; 2018-2020, Pixfabrik LLC</div>
 			</div>
 		</div>
 		<script type="text/javascript">
