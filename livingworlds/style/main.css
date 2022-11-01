@@ -127,6 +127,14 @@ video {
   margin-top: 2em;
 }
 
+.sound-credits {
+  columns: 2;
+}
+
+.sound-credits p {
+  margin-block-start: 0;
+}
+
 @media (max-width: 767px) {
   .content {
     display: block;
